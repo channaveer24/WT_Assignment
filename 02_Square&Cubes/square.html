@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square & cube table</title>
+</head>
+<body>
+    <h1 style=" text-align: center">Squares & Cubes of the Numbers</h1>
+    
+    <script>
+     // Function to calculate square
+function calculateSquare(num) {
+  return num * num;
+}
+
+// Function to calculate cube
+function calculateCube(num) {
+  return num * num * num;
+}
+
+// Create a table element
+var table = document.createElement('table');
+table.style.borderCollapse = 'collapse';
+table.style.width = '400px';
+table.style.borderRadius = '20px';
+table.style.border = '5px solid';
+
+// Create table header row
+var headerRow = table.insertRow();
+var headerCell1 = headerRow.insertCell();
+headerCell1.textContent = 'Number';
+var headerCell2 = headerRow.insertCell();
+headerCell2.textContent = 'Square';
+var headerCell3 = headerRow.insertCell();
+headerCell3.textContent = 'Cube';
+
+// Calculate and add rows to the table
+for (var i = 0; i <= 10; i++) {
+  var row = table.insertRow();
+  var row1 = row.insertCell();
+  row1.textContent = i;
+  var row2 = row.insertCell();
+  row2.textContent = calculateSquare(i);
+  var row3 = row.insertCell();
+  row3.textContent = calculateCube(i);
+}
+
+var cells = table.getElementsByTagName('td');
+for (var i = 0; i < cells.length; i++) {
+  cells[i].style.border = '1px solid black';
+}
+
+
+// Center-align the table
+table.style.margin = 'auto';
+
+// Append the table to the body
+document.body.appendChild(table);
+
+</script>
+
+</body>
+</html>
