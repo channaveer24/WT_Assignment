@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="text">TEXT-GROWING</p>
+
+    <script>
+        let fontSize = 10; // Starting font size
+        let grow = true; // Flag to determine if the text is grow or shrinking
+
+        function changeFontSize() {
+            const textElement = document.getElementById('text');
+
+            if (grow) {
+                fontSize += 5;
+                textElement.style.fontSize = `${fontSize}pt`;
+
+                if (fontSize >= 50) {
+                grow = false;
+                textElement.style.color = 'blue';
+                textElement.textContent = 'TEXT-SHRINKING';
+                }
+            } else {
+                fontSize -= 5;
+                textElement.style.fontSize = `${fontSize}pt`;
+
+                if (fontSize <= 5) {
+                clearInterval(intervalId);
+                }
+            }
+            }
+
+            // Start the interval
+            const intervalId = setInterval(changeFontSize, 100);
+    </script>
+</body>
+</html>
