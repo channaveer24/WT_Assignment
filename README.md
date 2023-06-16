@@ -1,7 +1,7 @@
 # WT_Assignment
 
 # Assignment1 
-A simple calculator made with HTML.
+A simple calculator made with HTML and JavaScript.
 
 
 # Assignment2
@@ -11,5 +11,5 @@ Squares and Cubes
 Photo Rating
 
 # Assignment4
-Program-4
+Vowel and Reverse
 
