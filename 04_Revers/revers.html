@@ -1,90 +1,83 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head><title>Program-4</title></head>
-<body>
-    <script type="text/javascript">
-        var str = prompt("Enter the Input", "");
-        if (!(isNaN(str)))  //isNaN means is Not a Number
-        {
-            var num, rev = 0,remainder;
-            num = parseInt(str);
-            while (num != 0)
-            {
-                remainder = num % 10;
-                num = parseInt(num / 10);
-                rev = rev * 10 + remainder;
-            }
-            alert("Reverse of " + str + " is " + rev);
-        } 
-        
-        else
-            
-        {
-            str = str.toUpperCase();
-            for (var i = 0; i < str.length; i++)  //0,1,2,3
-            {
-                var chr = str.charAt(i);
-                if (chr == 'A' || chr == 'E' || chr == 'I' || chr == 'O' || chr == 'U') 
-                    break;
-            }
-            if (i < str.length)
-                alert("The position of the left most vowel is " + (i + 1));
-            else
-                alert("No vowel found in the entered string");
-        }
-
-    </script>
-    <!-- <!DOCTYPE html>
-    <html>
-    <head>
-      <title>JavaScript Functions</title>
-      <script>
-        function findLeftMostVowel(str) {
-          const vowels = ['a', 'e', 'i', 'o', 'u'];
-          str = str.toLowerCase();
-          
-          for (let i = 0; i < str.length; i++) {
-            if (vowels.includes(str[i])) {
-              return i + 1; // Adding 1 to convert from zero-based index to position
-            }
-          }
-          
-          return -1; // Return -1 if no vowel is found
-        }
-        
-        function reverseNumber(num) {
-          const reversed = parseInt(num.toString().split('').reverse().join(''));
-          return reversed;
-        }
-        
-        function runProblem1() {
-          const input = document.getElementById('problem1-input').value;
-          const position = findLeftMostVowel(input);
-          document.getElementById('problem1-output').textContent = position !== -1 ? `Position: ${position}` : 'No vowel found';
-        }
-        
-        function runProblem2() {
-          const input = document.getElementById('problem2-input').value;
-          const reversed = reverseNumber(input);
-          document.getElementById('problem2-output').textContent = `Reversed: ${reversed}`;
-        }
-      </script>
-    </head>
-    <body>
-      <h1>JavaScript Functions</h1>
-      
-      <h2>Problem 1: Find Left-Most Vowel</h2>
-      <input type="text" id="problem1-input" placeholder="Enter a string">
-      <button onclick="runProblem1()">Find</button>
-      <p id="problem1-output"></p>
-      
-      <h2>Problem 2: Reverse Number</h2>
-      <input type="number" id="problem2-input" placeholder="Enter a number">
-      <button onclick="runProblem2()">Reverse</button>
-      <p id="problem2-output"></p>
-    </body>
-    </html> -->
+<head>
+  <title>JavaScript Functions</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
     
+    .container {
+      text-align: center;
+      border: 2px solid #000;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    
+    input[type="text"], input[type="number"] {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    
+    #output {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    function findLeftMostVowel(str) {
+      const vowels = ['a', 'e', 'i', 'o', 'u'];
+      str = str.toLowerCase();
+      
+      for (let i = 0; i < str.length; i++) {
+        if (vowels.includes(str[i])) {
+          return i + 1; // Adding 1 to convert from zero-based index to position
+        }
+      }
+      
+      return -1; // Return -1 if no vowel is found
+    }
+    
+    function reverseNumber(num) {
+      const reversed = parseInt(num.toString().split('').reverse().join(''));
+      return reversed;
+    }
+    
+    function processInput() {
+      const input = document.getElementById('input').value;
+      
+      let output;
+      if (!isNaN(input)) {
+        output = `Reversed: ${reverseNumber(input)}`;
+      } else {
+        const position = findLeftMostVowel(input);
+        output = position !== -1 ? `Position: ${position}` : 'No vowel found';
+      }
+      
+      document.getElementById('output').textContent = output;
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>JavaScript Functions</h1>
+  
+    <input type="text" id="input" placeholder="Enter a string or number">
+    <br>
+    <button onclick="processInput()">Process Input</button>
+  
+    <h2>Output:</h2>
+    <p id="output"></p>
+  </div>
 </body>
-
 </html>
