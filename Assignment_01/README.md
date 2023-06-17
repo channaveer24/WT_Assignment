@@ -1,26 +1,26 @@
-#Basic Calculator
-  The Basic Calculator is a simple JavaScript program that performs basic arithmetic operations such as addition, subtraction,         
-  multiplication, division, and calculating the quotient.
+# Basic Calculator
+    The Basic Calculator is a simple JavaScript program that performs basic arithmetic operations such as addition, subtraction,            multiplication, division, and calculating the quotient.
 
-#Features
-  Addition: Adds two numbers together.
-  Subtraction: Subtracts one number from another.
-  Multiplication: Multiplies two numbers.
-  Division: Divides one number by another.
-  Quotient: Calculates the quotient of two numbers.
-  Getting Started
+# Features
+    Addition: Adds two numbers together.
+    Subtraction: Subtracts one number from another.
+    Multiplication: Multiplies two numbers.
+    Division: Divides one number by another.
+    Quotient: Calculates the quotient of two numbers.
+  
+# Getting Started
 
-#Prerequisites
-  To run the Basic Calculator, you need a web browser that supports JavaScript.
-  Open the index.html file in your preferred web browser.
+# Prerequisites
+    To run the Basic Calculator, you need a web browser that supports JavaScript.
+    Open the index.html file in your preferred web browser.
 
-#Usage
-  Enter the first number in the "First Number" input field.
-  Enter the second number in the "Second Number" input field.
-  Click on the respective operation button to perform the desired arithmetic operation.
-  The result will be displayed in the "Result" section below.
+# Usage
+    Enter the first number in the "First Number" input field.
+    Enter the second number in the "Second Number" input field.
+    Click on the respective operation button to perform the desired arithmetic operation.
+    The result will be displayed in the "Result" section below.
 
-#Examples
+# Examples
   Addition
     First Number: 5
     Second Number: 3
