@@ -2,7 +2,7 @@
   The Square & Cube Table is an HTML page that generates a table displaying the squares and cubes of numbers from 0 to 10.
 
 # Getting Started
-  To view the Square & Cube Table, open the index.html file in a web browser.
+  To view the Square & Cube Table, open the Square&Cubes.html file in a web browser.
 
 # Features
   Generates a table displaying numbers, their squares, and their cubes.
@@ -11,7 +11,7 @@
   Table is centered on the page.
 
 # Usage
-  Open the index.html file in a web browser.
+  Open the Square&Cubes.html file in a web browser.
   Scroll down to view the generated table.
   The table displays three columns:
   Number: Displays the numbers from 0 to 10.
