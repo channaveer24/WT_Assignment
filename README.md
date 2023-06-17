@@ -11,6 +11,7 @@ Squares and Cubes
 
 # Assignment3
 Photo Rating
+![Screenshot 2023-06-17 052737](https://github.com/channaveer24/WT_Assignment/assets/118630837/f3aae860-4f9e-4e78-b0ec-86c43a310ad9)
 
 # Assignment4
 Vowel and Reverse
