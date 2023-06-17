@@ -23,3 +23,8 @@
   If you enter the string "chetan" in the input field and click the "Process Input" button, the output will be "Position: 2" since the    left-most vowel 'e' is at position 3.
 
   If you enter the number 12345 in the input field and click the "Process Input" button, the output will be "Reversed: 54321" since the   number is reversed.
+
+# SnapShots
+![Screenshot 2023-06-17 060618](https://github.com/channaveer24/WT_Assignment/assets/118630837/22de7c4b-3658-4bdf-bc28-3349080da397)
+
+![Screenshot 2023-06-17 060645](https://github.com/channaveer24/WT_Assignment/assets/118630837/617284b0-7151-429f-9bde-6b0f2ccc4b53)
