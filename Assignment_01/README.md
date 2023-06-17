@@ -46,3 +46,8 @@
     First Number: 20
     Second Number: 2
     Result: 0 (Quotient of dividing 20 by 6)
+
+# SnapShots
+![Screenshot 2023-06-17 060530](https://github.com/channaveer24/WT_Assignment/assets/118630837/eff5e5f5-9c84-4b25-8233-6e71f43527b9)
+
+![Screenshot 2023-06-17 060537](https://github.com/channaveer24/WT_Assignment/assets/118630837/787567ff-3c63-4ad0-8b05-f495556a9dfb)
