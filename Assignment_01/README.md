@@ -12,7 +12,7 @@
 
 # Prerequisites
     To run the Basic Calculator, you need a web browser that supports JavaScript.
-    Open the index.html file in your preferred web browser.
+    Open the Calculator.html file in your preferred web browser.
 
 # Usage
     Enter the first number in the input field.
