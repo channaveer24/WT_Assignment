@@ -12,3 +12,8 @@
   The font size will gradually decrease from 50pt to 5pt.
   The process will continue in a loop, growing and shrinking the text indefinitely.
 
+# SnapShots
+![Screenshot 2023-06-17 060553](https://github.com/channaveer24/WT_Assignment/assets/118630837/83d6cf64-ff07-426f-9b07-5feb2a525483)
+
+![Screenshot 2023-06-17 052737](https://github.com/channaveer24/WT_Assignment/assets/118630837/eee9d8b3-d349-41c2-8132-9fe884a3a1ff)
+
