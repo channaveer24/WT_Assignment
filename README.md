@@ -2,18 +2,18 @@
 
 # Assignment1 
 A simple calculator made with HTML and JavaScript.
-![Screenshot 2023-06-17 052811](https://github.com/channaveer24/WT_Assignment/assets/118630837/e6b59749-1829-47e3-91c8-8bce8a1002cf)
+![Screenshot 2023-06-17 052811](https://github.com/channaveer24/WT_Assignment/assets/118630837/607e7ca7-6f8d-4df3-98bd-b9f453d48f54)
 
 
 # Assignment2
 Squares and Cubes
-![Screenshot 2023-06-17 052757](https://github.com/channaveer24/WT_Assignment/assets/118630837/dc5c73ce-a67f-43c8-892b-a82c91154457)
+![Screenshot 2023-06-17 052757](https://github.com/channaveer24/WT_Assignment/assets/118630837/31360dee-e33c-496a-bedf-bfc56b1e1b88)
 
 # Assignment3
 Photo Rating
-![Screenshot 2023-06-17 052737](https://github.com/channaveer24/WT_Assignment/assets/118630837/f3aae860-4f9e-4e78-b0ec-86c43a310ad9)
+![Screenshot 2023-06-17 060553](https://github.com/channaveer24/WT_Assignment/assets/118630837/eb29c32e-6d76-4cc7-8b00-72c121b6a77a)
 
 # Assignment4
 Vowel and Reverse
-![Screenshot 2023-06-17 052804](https://github.com/channaveer24/WT_Assignment/assets/118630837/c2c41f81-ba79-468a-addc-08c06843c36c)
+![Screenshot 2023-06-17 052804](https://github.com/channaveer24/WT_Assignment/assets/118630837/5e9ebf9f-7770-492d-9273-e668529597df)
 
