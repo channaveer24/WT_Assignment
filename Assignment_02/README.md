@@ -39,4 +39,8 @@ The table will have the following structure:
 # Customization
   You can customize the range of numbers by modifying the for loop in the JavaScript code. For example, if you want to display numbers    from 0 to 20, you can change the loop condition to i <= 20.
 
+# SnapShots
+![Screenshot 2023-06-17 052757](https://github.com/channaveer24/WT_Assignment/assets/118630837/02195e1e-41a5-4040-bb2f-8dfc879facb9)
+
+
 
