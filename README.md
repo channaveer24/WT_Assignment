@@ -15,4 +15,5 @@ Photo Rating
 
 # Assignment4
 Vowel and Reverse
+![Screenshot 2023-06-17 052804](https://github.com/channaveer24/WT_Assignment/assets/118630837/c2c41f81-ba79-468a-addc-08c06843c36c)
 
